@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.SingleExcuseFragment">
+
+    <TableLayout
+        android:id="@+id/btn_layout"
+        android:paddingVertical="250dp"
+        android:paddingStart="30dp"
+        android:paddingEnd="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow>
+            <Button
+                android:id="@+id/fam_excuse_btn"
+                android:text="FAMILY"
+                android:layout_margin="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/college_excuse_btn"
+                android:layout_margin="10dp"
+                android:text="COLLEGE"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/party_excuse_btn"
+                android:layout_margin="10dp"
+                android:text="PARTY"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </TableRow>
+
+        <TableRow
+            android:paddingStart="60dp"
+            android:paddingEnd="60dp">
+            <Button
+                android:id="@+id/office_excuse_btn"
+                android:layout_margin="10dp"
+                android:text="OFFICE"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/children_excuse_btn"
+                android:layout_margin="10dp"
+                android:text="Children"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </TableRow>
+
+    </TableLayout>
+
+    <ProgressBar
+        android:visibility="gone"
+        android:id="@+id/loading_excuse"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:visibility="gone"
+        android:id="@+id/excuse_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</FrameLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ExcuserApp</string>
+
+    <string name="title_activity_excuse_main">ExcuseMainActivity</string>
+
+    <string name="title_single_excuse">Random Excuse</string>
+    <string name="title_family_excuse">Family Excuse</string>
+    <string name="title_college_excuse">College Excuse</string>
+    <string name="title_party_excuse">Party Excuse</string>
+    <string name="title_office_excuse">Office Excuse</string>
+    <string name="title_children_excuse">Children Excuse</string>
+</resources>

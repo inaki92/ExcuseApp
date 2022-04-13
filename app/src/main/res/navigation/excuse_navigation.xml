@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/excuse_navigation"
+    app:startDestination="@+id/SingleRandomExcuse">
+
+    <fragment
+        android:id="@+id/SingleRandomExcuse"
+        android:name="com.example.excuserapp.ui.SingleExcuseFragment"
+        android:label="@string/title_single_excuse"
+        tools:layout="@layout/fragment_single_excuse" >
+        <action
+            android:id="@+id/action_SingleRandomExcuse_to_FamilyExcuse"
+            app:destination="@id/FamilyExcuse" />
+        <action
+            android:id="@+id/action_SingleRandomExcuse_to_CollegeExcuse"
+            app:destination="@id/CollegeExcuse" />
+        <action
+            android:id="@+id/action_SingleRandomExcuse_to_ChildrenExcuse"
+            app:destination="@id/ChildrenExcuse" />
+        <action
+            android:id="@+id/action_SingleRandomExcuse_to_OfficeExcuse"
+            app:destination="@id/OfficeExcuse" />
+        <action
+            android:id="@+id/action_SingleRandomExcuse_to_PartyExcuse"
+            app:destination="@id/PartyExcuse" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/FamilyExcuse"
+        android:name="com.example.excuserapp.ui.FamilyExcuseFragment"
+        android:label="@string/title_family_excuse"
+        tools:layout="@layout/fragment_single_excuse" />
+
+    <fragment
+        android:id="@+id/CollegeExcuse"
+        android:name="com.example.excuserapp.ui.CollegeExcuseFragment"
+        android:label="@string/title_college_excuse"
+        tools:layout="@layout/fragment_single_excuse" />
+
+    <fragment
+        android:id="@+id/OfficeExcuse"
+        android:name="com.example.excuserapp.ui.OfficeExcuseFragment"
+        android:label="@string/title_office_excuse"
+        tools:layout="@layout/fragment_single_excuse" />
+
+
+    <fragment
+        android:id="@+id/PartyExcuse"
+        android:name="com.example.excuserapp.ui.PartyExcuseFragment"
+        android:label="@string/title_party_excuse"
+        tools:layout="@layout/fragment_single_excuse" />
+
+    <fragment
+        android:id="@+id/ChildrenExcuse"
+        android:name="com.example.excuserapp.ui.ChildrenExcuseFragment"
+        android:label="@string/title_children_excuse"
+        tools:layout="@layout/fragment_single_excuse" />
+</navigation>

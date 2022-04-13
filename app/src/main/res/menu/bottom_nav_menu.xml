@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/FamilyExcuse"
+        android:icon="@drawable/fam_excuse"
+        android:title="@string/title_family_excuse" />
+
+    <item
+        android:id="@+id/ChildrenExcuse"
+        android:icon="@drawable/children_excuse"
+        android:title="@string/title_children_excuse" />
+
+    <item
+        android:id="@+id/PartyExcuse"
+        android:icon="@drawable/party_excuse"
+        android:title="@string/title_party_excuse" />
+
+    <item
+        android:id="@+id/OfficeExcuse"
+        android:icon="@drawable/office_excuse"
+        android:title="@string/title_office_excuse" />
+
+    <item
+        android:id="@+id/CollegeExcuse"
+        android:icon="@drawable/college_excuse"
+        android:title="@string/title_college_excuse" />
+
+</menu>
